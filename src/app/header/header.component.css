@@ -1,0 +1,50 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid rgb(144, 92, 76);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  height: 100%;
+}
+header ul li a {
+  text-decoration: none;
+}
+.connexion {
+  width: 250px;
+
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgb(144, 92, 76);
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+}
+.deconnexion {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.connexion fa-icon {
+  font-size: 45px;
+  color: rgb(144, 92, 76);
+}
+.connexion p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.connexion {
+  max-height: 100%;
+}

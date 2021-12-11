@@ -1,0 +1,22 @@
+<div class="formulaire container">
+  <img src="../assets/La Nîmesalerie-logos_transparent.png" alt="" />
+  <form (ngSubmit)="connexionDashboard()">
+    <label>Identifiant*</label>
+    <input
+      type="text"
+      [(ngModel)]="nomutilisateur"
+      name="nomutilisateur"
+      placeholder="Identifiant"
+    />
+    <label>Mot de passe*</label>
+    <input
+      type="text"
+      [(ngModel)]="motdepasse"
+      name="motdepasse"
+      placeholder="Mot de passe"
+    />
+    <p *ngIf="echecConnexion">Identifiant incorrects</p>
+    <input type="submit" value="Connexion" />
+    <p>*Champs obligatoires</p>
+  </form>
+</div>

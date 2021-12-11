@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+app-nav-bar {
+  width: 20%;
+}
+app-header {
+  width: 100%;
+}
+
+.headerArticle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

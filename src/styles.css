@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-calendar-body-cell-content,
+.mat-date-range-input-separator,
+.mat-calendar-abbr,
+.mat-calendar-body-label,
+.mat-calendar-body-cell-preview::after {
+  color: white;
+}
